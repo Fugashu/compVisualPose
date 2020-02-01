@@ -3,7 +3,7 @@
 Repository URL: https://github.com/Fugashu/compVisualPose
 
 This repository contains code and information for the following paper (status: under investigation):
-F. Spiess, J. Friesslich, N. Strobel, T. Kaupp:  Comparing Augmented RGB-D Indoor Robot Navigation Methods
+F. Spiess, J. Friesslich, T. Kaupp, Samuel Kounev and N. Strobel:  Comparing Augmented RGB-D Indoor Robot Navigation Methods
 Using Fusion with Wheel Odometry and IMU Data - an Experimental Comparison under ROS
 
 
@@ -11,6 +11,7 @@ Using Fusion with Wheel Odometry and IMU Data - an Experimental Comparison under
 The provided datasets (rosbags) can be downloaded here: 
 
 [Scenario_1](https://drive.google.com/file/d/1rGULY7jUo4vwWlKkciZCH1vCYOC18itR/view)
+
 [Scenario_2](https://drive.google.com/file/d/1rGULY7jUo4vwWlKkciZCH1vCYOC18itR/view)
 
 ## Transform broadcaster:
