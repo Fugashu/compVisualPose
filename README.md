@@ -4,7 +4,7 @@ Repository URL: https://github.com/Fugashu/compVisualPose
 
 This repository contains code and information for the following paper (status: under investigation):
 
-F. Spiess, J. Friesslich, T. Kaupp, Samuel Kounev and N. Strobel:  
+F. Spiess, J. Friesslich, T. Kaupp, S. Kounev and N. Strobel:  
 
 Comparing Augmented RGB-D Indoor Robot Navigation Methods using Fusion with Wheel Odometry and IMU Data - an Experimental Comparison under ROS
 
