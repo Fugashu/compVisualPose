@@ -5,22 +5,10 @@ import sys
 import tf
 import tf2_ros
 import geometry_msgs.msg
-'''static_transformStamped = geometry_msgs.msg.TransformStamped()
-        static_transformStamped.header.stamp = rospy.Time.now()
-        static_transformStamped.header.frame_id = "base_link"
-        static_transformStamped.child_frame_id = "camera_link"
-        static_transformStamped.transform.translation.x = 0.0929
-        static_transformStamped.transform.translation.y = 0.0325
-        static_transformStamped.transform.translation.z = 0.0705
-        quat = tf.transformations.quaternion_from_euler(0,0,0)
-        static_transformStamped.transform.rotation.x = quat[0]
-        static_transformStamped.transform.rotation.y = quat[1]
-        static_transformStamped.transform.rotation.z = quat[2]
-        static_transformStamped.transform.rotation.w = quat[3]'''
+
 if __name__ == '__main__':
         rospy.init_node('my_static_tf2_broadcaster')
         broadcaster = tf2_ros.StaticTransformBroadcaster()              
-		#Due to the fact that the algorithms need instant access to these transformations we didn't use the tf topic to provide this data
         static_transformStamped2 = geometry_msgs.msg.TransformStamped()
         static_transformStamped2.header.stamp = rospy.Time.now()
         static_transformStamped2.header.frame_id = "camera_link" 
